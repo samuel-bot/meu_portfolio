@@ -1,17 +1,31 @@
 // src/components/Skills.jsx
 const skills = [
   "Java",
+  "Servlet",
+  "Tomcat",
+  "JavaScript",
+  "jQuery",
+  "AJAX",
+  "HTML",
+  "CSS",
+  "Bootstrap",
+  "Git",
+  "Redes",
+  "PostgreSQL",
+  "Flutter",
   "Spring Boot",
-  "SQL",
-  "React.js (em estudo)",
-  "TypeScript (em estudo)",
-  "Git & GitHub"
+  "APIs REST",
+  "Supabase",
+  "Angular",
+  "React",
+  "MVC",
+  "Linux"
 ];
 
 function Skills() {
   return (
     <section id="skills" className="section">
-      <h2>Skills</h2>
+      <h2>Habilidades</h2>
       <ul className="skills-list">
         {skills.map((skill) => (
           <li key={skill}>{skill}</li>

@@ -5,7 +5,28 @@ function Contact() {
       <h2>Contato</h2>
       <p>Se quiser bater um papo ou saber mais sobre meu trabalho:</p>
       <ul>
-        <li>Email: <a href="mailto:seuemail@exemplo.com">samuelabreu2346@gmail.com</a></li>
+        <li>
+          E-mail:{" "}
+          <a href="mailto:samuelabreu2346@gmail.com">
+            samuelabreu2346@gmail.com
+          </a>
+        </li>
+        <li>
+          Telefone / WhatsApp:{" "}
+          <a href="tel:+5511998606428">
+            +55 11 99860-6428
+          </a>
+        </li>
+        <li>
+          GitHub:{" "}
+          <a
+            href="https://github.com/samuel-bot"
+            target="_blank"
+            rel="noreferrer"
+          >
+            github.com/samuel-bot
+          </a>
+        </li>
         <li>
           LinkedIn:{" "}
           <a
@@ -13,10 +34,9 @@ function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            /in/samuelabreudev
+            linkedin.com/in/samuelabreudev
           </a>
         </li>
-        {/* Coloque também o link do seu GitHub */}
       </ul>
     </section>
   );

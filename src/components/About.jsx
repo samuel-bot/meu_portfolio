@@ -2,12 +2,17 @@
 function About() {
   return (
     <section id="about" className="section">
-      <h2>Sobre</h2>
+      <h2>Sobre mim</h2>
       <p>
-        Sou estudante de Sistemas de Informação na FIAP, em São Paulo, em busca de oportunidade
-        de estágio em desenvolvimento de software. Tenho experiência acadêmica e projetos pessoais
-        com Java, Spring Boot, SQL e Git/GitHub, e estou expandindo meus conhecimentos em React.js
-        e TypeScript.
+        Olá, meu nome é Samuel Mota Gama De Abreu. Comecei minha jornada no desenvolvimento de
+        software em 2023 e, desde então, participei de diversos projetos, tanto individuais quanto
+        em equipe. Atualmente, estou em busca de oportunidades de estágio tanto em front-end quanto
+        em back-end, para continuar evoluindo minhas habilidades técnicas e profissionais.
+      </p>
+      <p style={{ marginTop: "0.75rem" }}>
+        Curso Bacharelado em Sistemas de Informação na FIAP (início em 2023), o que me dá uma base
+        sólida em fundamentos de computação, desenvolvimento de software e boas práticas de
+        engenharia.
       </p>
     </section>
   );
