@@ -1,5 +1,5 @@
 // src/components/Hero.jsx
-import profileImg from "../assets/profile.jpg";
+import profileImg from "../assets/profile.png";
 
 function Hero() {
   return (
