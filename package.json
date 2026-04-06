@@ -2,7 +2,7 @@
   "name": "meu_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/samuel-bot/meu_portfolio",
+  "homepage": "https://samuel-bot.github.io/meu_portfolio/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
