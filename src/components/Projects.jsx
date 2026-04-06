@@ -1,39 +1,23 @@
 // src/components/Projects.jsx
 const projects = [
   {
-    name: "EuroPro",
+    name: "EuroPro - Sistema de Gestão",
     period: "Jan 2025 – Dez 2025",
     description:
-      "Plataforma multiplataforma (Web/Android) de engajamento de projetos e ideias futuras, com integração de IA para chatbot de suporte.",
+      "Projeto em equipe consistindo em uma plataforma de engajamento de projetos e ideias futuras, com sistema de gestão e painel administrativo para controle e visualização de dados.",
     role:
       "Atuei como desenvolvedor, orquestrando o desenvolvimento do produto como um todo (back-end e front-end).",
     details:
-      "Utilizei Flutter com componentes Stateless e Stateful, arquitetura MVVM, Repositories e integração com a library nativa do Supabase para Flutter.",
-    techs: ["Flutter", "Dart", "Supabase", "MVVM"],
-    // Se tiver repo ou demo, coloque aqui:
-    link: null
-  },
-  {
-    name: "Natura – Plataforma de Conexões",
-    period: "Jan 2024 – Dez 2024",
-    description:
-      "Plataforma de conexões sociais para consultores Natura, focada em relacionamento e engajamento entre consultores.",
-    role: "Atuei como desenvolvedor no desenvolvimento das funcionalidades de front-end e integração com o banco de dados.",
-    details:
-      "Projeto desenvolvido com JavaScript, CSS, HTML, MariaDB e JSON para armazenamento e manipulação de dados.",
-    techs: ["JavaScript", "HTML", "CSS", "MariaDB", "JSON"],
-    link: null
-  },
-  {
-    name: "Challenge 2025 - Sistema de Gestão",
-    period: "2025",
-    description:
-      "Projeto em equipe consistindo em um sistema de gestão com painel administrativo para controle e visualização de dados.",
-    role:
-      "Participei do desenvolvimento do sistema e do painel administrativo, colaborando com a equipe no back-end e front-end.",
-    details:
-      "Projeto com integração entre front-end e back-end, utilizando API, banco de dados e boas práticas de organização de código.",
-    techs: ["Java", "Spring Boot", "SQL", "React", "JavaScript", "Git"],
+      "Plataforma multiplataforma (Web/Android) com integração de IA para chatbot de suporte. Utilizei Flutter com componentes Stateless e Stateful, arquitetura MVVM, Repositories e integração com a library nativa do Supabase para Flutter, além da integração com API e banco de dados que compõem o sistema de gestão (Challenge 2025).",
+    techs: [
+      "Flutter",
+      "Dart",
+      "Supabase",
+      "MVVM",
+      "APIs REST",
+      "Banco de dados",
+      "Git"
+    ],
     link: "https://github.com/AriadineAmaral/Challenge2025"
   }
 ];
