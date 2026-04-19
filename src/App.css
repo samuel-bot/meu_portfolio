@@ -1,10 +1,4 @@
-:root {
-  --bg: #0f172a;
-  --bg-light: #111827;
-  --text: #e5e7eb;
-  --muted: #9ca3af;
-  --accent: #38bdf8;
-}
+/* App.css variables removed — global theme handled in src/index.css */
 
 /* Reset básico */
 * {
