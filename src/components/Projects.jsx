@@ -8,7 +8,7 @@ const projects = [
       aria: "online"
     },
     description:
-      "Sistema Full Stack para controle de receitas, despesas e metas. Desenvolvido com autenticação JWT (HttpOnly), Docker, Nginx e integração com Resend para recuperação de senha.",
+      "Plataforma Full Stack para controle completo de receitas, despesas e metas financeiras. O sistema está em produção ativa, com arquitetura moderna que garante alta segurança na autenticação e total independência do usuário sobre seus dados. Inclui sistema inteligente de recuperação de senha e foi desenvolvido seguindo as melhores práticas de mercado para performance e usabilidade.",
     techs: ["React", "TypeScript", "NestJS", "Prisma", "PostgreSQL", "Docker", "Nginx", "Tailwind"],
     link: {
       site: "https://zenithfinancas.com.br",
@@ -65,9 +65,6 @@ function Projects() {
               <p style={{ marginTop: '0.6rem', display: 'flex', gap: '0.75rem' }}>
                 {project.link.site && (
                   <a href={project.link.site} target="_blank" rel="noreferrer">Acessar Site</a>
-                )}
-                {project.link.repo && (
-                  <a href={project.link.repo} target="_blank" rel="noreferrer">Repositório</a>
                 )}
                 {typeof project.link === 'string' && (
                   <a href={project.link} target="_blank" rel="noreferrer">Ver no GitHub</a>
